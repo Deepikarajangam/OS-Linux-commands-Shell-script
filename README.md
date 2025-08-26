@@ -1053,6 +1053,7 @@ $ chmod 755 exread1.sh
 
 
 
+
 $ ./exread1.sh 
  
 cat funcex.sh
@@ -1076,6 +1077,7 @@ fi
  
  ./funcex.sh 1 2
 
+
  
 cat argshift.sh
 ```bash
@@ -1089,6 +1091,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+<img width="397" height="118" alt="image" src="https://github.com/user-attachments/assets/80fbd7d0-5eb2-448e-a1a9-b9a72ee21ada" />
  
  cat argshift1.sh
 ```bash
@@ -1106,7 +1110,6 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1120,6 +1123,9 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
+
+<img width="362" height="430" alt="image" src="https://github.com/user-attachments/assets/0414aabd-0e12-4018-a673-f5f91cc243ee" />
+
  
 cat > nc.awk
 ```bash
@@ -1150,7 +1156,10 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+
+
+<img width="560" height="330" alt="image" src="https://github.com/user-attachments/assets/b0a86b06-38e7-49c1-ba8c-d37c7ffbdd4b" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1177,6 +1186,8 @@ else
 fi
 ```
 ## OUTPUT 
+
+<img width="458" height="576" alt="image" src="https://github.com/user-attachments/assets/ed1ea3d5-d982-4dbf-8d7b-08dfe5576cfd" />
 
 
 # RESULT:
